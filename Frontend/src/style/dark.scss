@@ -1,0 +1,53 @@
+.app.dark {
+  background-color: rgb(50, 50, 50);
+  color: rgb(53, 53, 53);
+  .Container {
+    box-shadow: -1px 0 .5em wheat;
+  }
+  .home{
+    background-color: rgb(50, 50, 50);
+    .homeContainer{
+      background-color: rgb(50, 50, 50);
+    }
+  }
+  .navbar {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-color: gray;
+  }
+
+  .sidebar {
+    background-color: rgb(50, 50, 50);
+    border-color: gray;
+    .top {
+      .logo {
+        color: #ff9100;
+      }
+    }
+    hr {
+      border-color: rgb(231, 228, 228);
+    }
+    ul {
+      span{
+        color: rgb(240, 240, 240);
+      }
+      .title{
+        color: rgb(240, 240, 240);
+      }
+      li {
+        
+        &:hover {
+          background-color: rgb(216, 216, 216);
+        }
+
+        .icon {
+          font-size: 18px;
+          color: #ff9100;
+        }
+      }
+    }
+  }
+  input{
+      background-color: transparent;
+  }
+}
