@@ -13,10 +13,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
-#define FIREBASE_HOST "https://homeio-test-default-rtdb.europe-west1.firebasedatabase.app"
-#define FIREBASE_AUTH "X946hcgH6iyilpGFpcK0oLYwUC44zKUIF1Sv4ajs"
-#define WIFI_SSID "X30"
-#define WIFI_PASSWORD "siema123"
+#define FIREBASE_HOST " "
+#define FIREBASE_AUTH " "
+#define WIFI_SSID " "
+#define WIFI_PASSWORD " "
 
 FirebaseData firebaseData;
 unsigned long aktualnyCzas = 0;
