@@ -1,3 +1,3 @@
 Home IO 
 
-Website for control microcontoler.
+Website for control microcontroller.
